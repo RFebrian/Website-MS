@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+
+    <!-- MS Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Motion Still</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Motion Still</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Client</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Our Works
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#digital">Digital Ads</a>
+                </li>
+                <li><a class="dropdown-item" href="#video">Music Video</a></li>
+                <li>
+                  <a class="dropdown-item" href="#profile">Company Profile</a>
+                </li>
+                <li><a class="dropdown-item" href="#Event">Event</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meet The Team</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-light"
+                aria-current="page"
+                href="https://wa.link/pukqvd"
+                target="blank"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section id="about">
+      <img
+        src="img/logo.png"
+        class="img-fluid banner"
+        data-aos="flip-up"
+        alt="Motion Still"
+      />
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container-fluid mb-3 about">
+        <div
+          class="row row-cols-1 row-cols-md-3 text-center justify-content-around px-5"
+        >
+          <div class="col">
+            <h3 class="text-center">Who We Are ?</h3>
+            <p class="px-3">
+              We are Film Production House Based in Bandung that creates
+              creative video and photography.
+            </p>
+          </div>
+          <div class="col">
+            <h3 class="text-center">What We Made ?</h3>
+            <p class="px-3">
+              We make promos, commercials, music videos, shorts documentaries,
+              corporate video and photography, annual book photography etc. We
+              discuss your needs and goals, and create films with best
+              professional work in your budget range.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Our Client -->
+    <section id="client">
+      <div class="container-fluid">
+        <h4 class="text-center">Our Client</h4>
+        <div class="container shadow-sm mb-3">
+          <hr class="py-1 rounded" />
+          <p class="text-center pb-3"></p>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Client -->
+
+    <!-- Our Works -->
+    <div class="container-fluid">
+      <h3 class="text-center">Our Works</h3>
+
+      <!-- Digital Ads -->
+      <section id="digital">
+        <div class="container shadow-sm mb-3">
+          <h4>Digital Ads</h4>
+          <hr class="py-1 rounded" />
+          <div class="row row-cols-1 row-cols-md-3 text-center video">
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/k8LByyQROdg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Lazada Seller Story</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/KvUVJBCJQjw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Eiger Adventure</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/0z1QIhglZkg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Santosa Hospital</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/YBHmO1pDGP8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Nestle</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/e2QuB7icwf0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Kopi ABC</p>
+            </div>
+            <div class="col pb-2 rounded">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/feGmLqE4U6g"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Kompas TV</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Video Music -->
+    <section id="video">
+      <div class="container-fluid">
+        <div class="container shadow-sm mb-3">
+          <h4>Music Video</h4>
+          <hr class="py-1 rounded" />
+          <div class="row row-cols-1 row-cols-md-3 text-center video">
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/WXDw3wIeCYw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Humiliation INA</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/eAGU9xyvuWc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Biruni & the Missions</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/_kZZ-Rn6yzg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>DCDC TV</p>
+            </div>
+            <div class="col pb-2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Company Profile -->
+    <section id="profile">
+      <div class="container-fluid">
+        <div class="container shadow-sm mb-3">
+          <h4>Company Profile</h4>
+          <hr class="py-1 rounded" />
+          <div class="row row-cols-1 row-cols-md-3 text-center video">
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/b9ozY7rF8_0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>
+                Hotel Bidakara <br />
+                Grand Pancoran Jakarta
+              </p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/AscglnkVVuw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Disyanjak Kota Bandung</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/koYIhddU5ok"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>PDAM Tirta Wening</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/0yTeK9cdgUc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>BPPT Kota Bandung</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/WRpT7lnMFlA"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Kaleidoskop Dinas Pehubungan Jawa Barat</p>
+            </div>
+            <div class="col pb-2 rounded">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/zAj1TSgTN_0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Kaleidoskop Dinas Pehubungan Jawa Barat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Event -->
+    <section id="Event">
+      <div class="container-fluid">
+        <div class="container shadow-sm mb-3">
+          <h4>Event</h4>
+          <hr class="py-1 rounded" />
+          <div class="row row-cols-1 row-cols-md-3 text-center video">
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/-MgD0vUcZ4w"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>LA Zone.ID</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/lAKdL4fh6R8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Nada Promotama</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/bFGqZZj4ahg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Telkomsel</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/AzzAqB2R-n4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Kompas TV Jawa Barat</p>
+            </div>
+            <div class="col pb-2">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/pzyoJwGklqc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Aftermovie BANGKIT UNTUK SATU - Bali</p>
+            </div>
+            <div class="col pb-2 rounded">
+              <iframe
+                class="ratio ratio-16x9 rounded"
+                src="https://www.youtube.com/embed/ijwE24DOZtI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <p>Nada Promotama</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Works -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
